@@ -1,13 +1,13 @@
-# Q 1
+# # Q 1
 def findmax():
     a=int(input(" Enter your  1 number "))
     b=int(input(" Enter your 2 number "))
     c=int(input(" Enter your 3 number"))
     y=max(a,b,c)
     print("the greatest number is",y)
-# findmax()
+findmax()
 
-# Q 2
+# # Q 2
 def sumofnumbers():
     loaf=[]
     a = int(input(" Enter the number of numbers you want to add"))
@@ -17,22 +17,22 @@ def sumofnumbers():
         c = int(input(" Type a number"))
         loaf.append(c)
     print(sum(loaf))
-#sumofnumbers()        
+sumofnumbers()        
 
-# Q 4
+# # Q 3
 def multiplicationofnumbers():
     loa=[]
     a = int(input(" Enter the number of numbers you want to multiply"))
     for e in range(0,a):
-        f=int(input(" Type a number"))
-        loa.append(f)
+    f=int(input(" Type a number"))
+    loa.append(f)
     mul=1
     for item in loa:
        mul=mul*item
     print(mul) 
-# multiplicationofnumbers() 
+multiplicationofnumbers() 
 
-# Q 4  
+# # Q 4  
 def reversestring():
     z = input(" give me a string ")
     reversestring=""
