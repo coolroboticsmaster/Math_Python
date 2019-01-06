@@ -24,7 +24,7 @@ def multiplicationofnumbers():
     loa=[]
     a = int(input(" Enter the number of numbers you want to multiply"))
     for e in range(0,a):
-    f=int(input(" Type a number"))
+        f=int(input(" Type a number"))
     loa.append(f)
     mul=1
     for item in loa:
@@ -40,4 +40,18 @@ def reversestring():
     for cool in range (length-1,-1,-1):
         reversestring=reversestring+(z[cool])+" "
     print(reversestring.upper())
-reversestring()        
+reversestring()  
+
+# Q 5
+def factorial():
+    x = int(input(" Enter any number "))
+    z = 1
+    for y in range(1,x+1):
+        z = z*y
+    if x == 0:
+        print( "The factorial for ",x," is 0 ")
+    else:
+        print(" The factorial for ",x," is ",z)	
+factorial()
+
+# Q 6 
